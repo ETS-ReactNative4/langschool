@@ -1,5 +1,52 @@
 #header {
-    height: 115px;
+    display: flex;
+    flex-wrap: nowrap;
+    height: 14.8vh;
     width: 100vw;
     background-color: black;
+    justify-content: flex-end;
+}
+
+.firstComponent {
+    width: 26.7%;
+    height: 115px;
+    justify-content: center;
+    align-items: center;
+    color: aqua;
+    display: flex;
+}
+
+.secondComponent {
+    width: 41.3%;
+    height: 115px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.secondComponent a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.thirdComponent {
+    width: 26.7%;
+    height: 115px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.thirdComponent p {
+    color: white;  
+    margin-right: 35px;
+}
+
+.thirdComponent button {
+    color: white;
+    height: 34.7%;
+    width: 53%;
+    background-color: green;
+    border: none;
 }
