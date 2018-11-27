@@ -9,7 +9,6 @@
 
 .firstComponent {
     width: 26.7%;
-    height: 115px;
     justify-content: center;
     align-items: center;
     color: aqua;
@@ -18,7 +17,6 @@
 
 .secondComponent {
     width: 41.3%;
-    height: 115px;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -32,7 +30,6 @@
 
 .thirdComponent {
     width: 26.7%;
-    height: 115px;
     justify-content: center;
     align-items: center;
     display: flex;
