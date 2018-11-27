@@ -8,6 +8,94 @@
     height: 75.2vh;
     width: inherit;
     background-color: rgb(10, 62, 107);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#bannerInfo {
+    width: 41.6vw;
+    position: relative;
+    right: 21vw;
+}
+
+#bannerInfo p:nth-of-type(2) {
+    font-weight: 700;
+    font-size: 22px;
+    color: #fff;
+    line-height: 1.55;
+    font-family: 'Roboto',Arial,sans-serif;
+    text-align: left;
+    opacity: 0.7;
+}
+
+#bannerInfo p:first-child {
+    font-size: 32px;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: 600;
+    line-height: 34px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-family: 'Roboto',Arial,sans-serif;
+    text-align: left;
+}
+
+.btn {
+    font-family: 'Roboto',Arial,sans-serif;
+    height: 60px;
+    width: 230px;
+    border: 0 none;
+    font-size: 16px;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    font-weight: 700;
+    background-image: none;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.yellow-btn {
+    color: #000000;
+    background-color: #fff243;
+    text-decoration: none;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.transparent-btn {
+    color: #fff;
+    background-color: transparent;
+    text-decoration: none;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px #fff;
+    margin: 0;
+}
+
+.transparent-btn:hover {
+    color: #000;
+    background-color: #fff243;
+    border: none;
+}
+
+.bannerBtnWrapper {
+    display: flex;
 }
 
 .arrow {
