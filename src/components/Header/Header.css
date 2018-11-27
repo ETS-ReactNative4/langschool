@@ -1,6 +1,9 @@
 #header {
+<<<<<<< HEAD
     display: flex;
     flex-wrap: nowrap;
+=======
+>>>>>>> 322c55d20be0fd270db67c03a5d2e8ac7f5b5ef1
     height: 14.8vh;
     width: 100vw;
     background-color: black;
