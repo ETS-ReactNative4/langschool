@@ -10,8 +10,8 @@ const Banner = () => {
             <div className="bannerContent">
 
             </div>
-            <div className="arrowDown">
-                
+            <div className="arrow">
+                <div className="arrowDown"></div>
             </div>
         </div>
     )

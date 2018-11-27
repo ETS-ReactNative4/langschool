@@ -3,3 +3,27 @@
     width: 100vw;
     background-color: cadetblue;
 }
+
+.bannerContent {
+    height: 75.2vh;
+    width: inherit;
+    background-color: rgb(10, 62, 107);
+}
+
+.arrow {
+    height: 10vh;
+    width: inherit;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+}
+
+.arrowDown {
+    color: #fff;
+    width: 27px;
+    height: 27px;
+    border-bottom: solid 1px currentColor;
+    border-left: solid 1px currentColor;
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+}
