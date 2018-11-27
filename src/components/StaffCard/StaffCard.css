@@ -1,0 +1,21 @@
+#staffCard {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-flow: column;
+    width: 25%;
+    height: 85%;
+}
+
+#staffCard img {
+    height: 80%;
+    width: 90%;
+}
+
+#staffCard h3 {
+    margin-bottom: 10px;
+}
+
+#staffCard p {
+    margin: 0;
+}

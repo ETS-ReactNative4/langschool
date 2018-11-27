@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Banner from './components/Banner/Banner';
 import About from './components/About/About';
+import StaffCardsHolder from './components/StaffCardsHolder/StaffCardsHolder';
 
 class App extends Component {
   constructor() {
@@ -16,6 +17,7 @@ class App extends Component {
       <div className="App">
         <Banner />
         <About />
+        <StaffCardsHolder />
       </div>
     );
   }
