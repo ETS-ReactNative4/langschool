@@ -1,0 +1,81 @@
+#footer {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100vw;
+    height: 39.7%;
+    justify-content: center;
+    background-color: black;
+}
+
+.firstCol {
+    display: flex;
+    width: 23.5%;
+    height: 65%;
+    flex-flow: column;
+    align-items: flex-start;
+}
+
+.firstCol img {
+    width: 50%;
+    height: 30%;
+}
+
+.firstCol a {
+    text-decoration: none;
+    color: orangered;
+}
+
+.firstCol p {
+    color: bisque;
+}
+
+.secondCol {
+    display: flex;
+    width: 22%;
+    height: 50.8%;
+    flex-flow: column;
+    align-items: flex-start;
+}
+
+.secondCol h4 {
+    color: bisque;
+}
+
+.secondCol a {
+    text-decoration: none;
+    color: bisque;
+    font-family: 'Roboto',Arial,sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 1.55;
+}
+
+.thirdCol {
+    display: flex;
+    width: 22%;
+    height: 55%;
+    flex-flow: column;
+    align-items: flex-start;
+}
+
+.thirdCol h4 {
+    color: bisque;
+}
+
+.thirdCol a {
+    text-decoration: none;
+    color: bisque;
+    font-family: 'Roboto',Arial,sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 1.55;
+}
+
+.fourthCol {
+    display: flex;
+    width: 22%;
+    height: 55%;
+    flex-flow: column;
+    align-items: flex-start;
+    color: bisque;
+}

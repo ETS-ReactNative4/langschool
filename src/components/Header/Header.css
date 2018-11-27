@@ -3,15 +3,15 @@
     flex-wrap: nowrap;
     height: 14.8vh;
     width: 100vw;
-    background-color: black;
     justify-content: flex-end;
+    background-color: white;
 }
 
 .firstComponent {
     width: 26.7%;
     justify-content: center;
     align-items: center;
-    color: aqua;
+    color: black;
     display: flex;
 }
 
@@ -25,7 +25,7 @@
 .secondComponent a {
     margin-right: 10px;
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 .thirdComponent {
@@ -36,12 +36,12 @@
 }
 
 .thirdComponent p {
-    color: white;  
+    color: black;  
     margin-right: 35px;
 }
 
 .thirdComponent button {
-    color: white;
+    color: black;
     height: 34.7%;
     width: 53%;
     background-color: green;
