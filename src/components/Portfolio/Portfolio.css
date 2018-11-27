@@ -1,0 +1,78 @@
+#portfolio {
+    height: 698px;
+    width: 100%;
+    background-color: green;
+}
+
+.portfolioContent {
+    height: 600px;
+    width: inherit;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolioContent div {
+    height: 50%;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolioContent div:hover {
+    background-color: rgb(20, 20, 20);
+    opacity: 0.851;
+}
+
+.portfolioContent div:hover :nth-child(1) {
+    visibility: visible;
+}
+
+@media all and (max-width: 870px) {
+    .portfolioContent div {
+        min-width: 100%;
+        height: 12.5%;
+    }
+
+    #portfolio {
+        height: 2498px;
+    }
+
+    .portfolioContent {
+        height: 2400px;
+    }
+}
+
+.whitegray {
+    background-color: rgb(221, 221, 221);
+}
+
+.gray {
+    background-color: rgb(131, 131, 131);
+}
+
+.portfolioContent div img {
+    visibility: hidden;
+}
+  
+#loadMoreWork {
+    height: 98px;
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+}
+
+#loadMoreWork p {
+    font-size: 12px;
+    font-family: "Montserrat";
+    color: rgb(142, 142, 142);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: left;
+    cursor: pointer;
+}
+
+#loadMoreWork:hover {
+    background-color:  #b5b9c0;
+    cursor: pointer;
+}
+  
