@@ -21,7 +21,7 @@ const Footer = () => {
                 <a>Сезоны:</a>
                 <a href="">Зимний сезон</a>
                 <a href="">Весенний сезон</a>
-                <a href="">летний сезон</a>
+                <a href="">Летний сезон</a>
             </div>
             <div className="fourthCol">
                 <a href="" className="logo">Facebook</a>

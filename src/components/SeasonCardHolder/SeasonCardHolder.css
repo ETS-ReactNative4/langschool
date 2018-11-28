@@ -13,3 +13,16 @@
     justify-content: space-evenly;
     flex-wrap: nowrap;
 }
+
+@media all and (max-width: 1200px) {
+    #seasonCardHolder {
+        height: unset;
+    }
+
+    .seasonCardCollection {
+        width: 90%;
+        justify-content: initial;
+        flex-flow: column;
+        margin: auto; /*Delete, in order to resize the card*/
+    }
+}

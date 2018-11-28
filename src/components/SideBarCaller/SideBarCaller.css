@@ -10,6 +10,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 100;
+    visibility: hidden;
 }
 
 .menuIcon {
@@ -38,4 +40,10 @@
     width: 22px;
     height: 2px;
     background-color: currentColor;
-}  
+}
+
+@media all and (max-width: 1200px) {
+    #sideBarCaller {
+        visibility: visible;
+    }
+}

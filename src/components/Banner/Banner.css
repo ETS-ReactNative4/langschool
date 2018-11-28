@@ -1,5 +1,5 @@
 #banner {
-    height: 100vh;
+    /* height: 100vh; */
     width: 100vw;
     background-color: cadetblue;
 }
@@ -114,4 +114,11 @@
     border-left: solid 1px currentColor;
     -webkit-transform: rotate(-45deg);
             transform: rotate(-45deg);
+}
+
+@media all and (max-width: 1200px) {
+    #bannerInfo {
+        width: 95vw;
+        right: 0;
+    }
 }

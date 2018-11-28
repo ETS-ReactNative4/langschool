@@ -13,3 +13,19 @@
     justify-content: space-between;
     flex-wrap: nowrap;
 }
+
+@media all and (max-width: 1200px) {
+    #staffCardsHolder {
+        height: initial;
+    }
+
+    .staffCardsCollection {
+        justify-content: unset;
+        flex-flow: column;
+        margin-top: 60px;
+    }
+
+    .staffCard {
+        width: initial !important;
+    }
+}

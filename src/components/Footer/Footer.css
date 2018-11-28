@@ -151,4 +151,55 @@
     height: 10px;
     border-radius: 50%;
     box-shadow: 6.5px -7.5px 0 -5.5px #fff;
-  }  
+  }
+
+@media all and (max-width:1200px) {
+    #footer {
+        padding-left: 20px;
+        height: initial;
+        flex-flow: column;
+    }
+
+    .firstCol {
+        width: 90%;
+        order: 1;
+        justify-content: flex-end;
+    }
+
+    .secondCol {
+        width: initial;
+        height: initial;
+        align-items: initial;
+        margin-top: 15px;
+        justify-content: space-around;
+        order: 3;
+    }
+
+    .secondCol a {
+        margin-top: 10px;
+    }
+
+    .thirdCol {
+        margin-top: 20px;
+        width: initial;
+        height: initial;
+        align-items: initial;
+        order: 4;
+    }
+
+    .thirdCol a {
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+
+    .thirdCol :last-child {
+        margin-bottom: 20px;
+    }
+
+    .fourthCol {
+        order: 2;
+        width: initial;
+        height: initial;
+        align-self: unset;
+    }
+}
