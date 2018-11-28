@@ -1,0 +1,130 @@
+#sideBar {
+    display: flex;
+    flex-flow: column;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 100vh;
+    width: 300px;
+    background-color: #eff4f8;
+}
+
+.closeSideBar {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.closeIcon {
+    color: #000;
+    position: absolute;
+    margin-top: 0;
+    margin-left: 0;
+    width: 24px;
+    height: 24px;
+    margin-right: 21px;
+}
+  
+.closeIcon:before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    width: 24px;
+    height: 2px;
+    background-color: currentColor;
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+}
+  
+.closeIcon:after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    width: 24px;
+    height: 2px;
+    background-color: currentColor;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+}
+
+.closeIcon:hover {
+    cursor: pointer;
+}
+
+#sideBarLogoWrapper {
+    height: 97.7833px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+#sideBarLogoWrapper img {
+    height: inherit;
+    width: 220px;
+}
+
+#sideBarMenuWrapper {
+    width: inherit;
+    height: 231px;
+    display: flex;
+    justify-content: center;
+}
+
+#sideBarMenuWrapper ul {
+    width: 220px;
+    height: inherit;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+#sideBarMenuWrapper ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 21px;
+    font-family: 'Roboto',Arial,sans-serif;
+}
+
+.sideBarButtonsWrapper {
+    margin-top: auto;
+    height: 183.5px;
+    width: inherit;
+    justify-self: flex-end;
+    display: flex;
+    justify-content: center;
+}
+
+.sideBarButtons {
+    height: 145.5px;
+    width: 220px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.sideBarButtons a {
+    width: inherit;
+    margin: 0;
+}
+
+.socialNetworkWrapper {
+    width: inherit;
+    height: 36.5px;
+    margin-top: 24px;
+    display: flex;
+}
+
+.socialNetworkWrapper div {
+    margin-top: 2px;
+}
+
+.instagramIcon {
+    margin-left: 5px;
+}
