@@ -1,3 +1,6 @@
+#root {
+    overflow-x: hidden;
+}
 #footer {
     display: flex;
     flex-wrap: nowrap;
@@ -37,8 +40,11 @@
     align-items: flex-start;
 }
 
-.secondCol h4 {
+.secondCol :first-child {
     color: bisque;
+    font-size: 16px;
+    margin-top: 11%;
+    margin-bottom: 5.5%;
 }
 
 .secondCol a {
@@ -55,11 +61,14 @@
     width: 22%;
     height: 55%;
     flex-flow: column;
-    align-items: flex-start;
+    align-items: center;
 }
 
-.thirdCol h4 {
+.thirdCol :first-child {
     color: bisque;
+    font-size: 16px;
+    margin-top: 11%;
+    margin-bottom: 5.5%;
 }
 
 .thirdCol a {
@@ -75,7 +84,71 @@
     display: flex;
     width: 22%;
     height: 55%;
-    flex-flow: column;
-    align-items: flex-start;
+    align-self: center;
+    align-items: center;
     color: bisque;
 }
+
+.logo {
+    background: #4661b0;
+    text-indent: -999em;
+    width: 22px;
+    height: 31px;
+    border-radius: 3px;
+    position: relative;
+    overflow: hidden;
+    border: 3.5px solid #4661b0;
+    border-bottom: 0;
+}
+
+.logo:before {
+    content: "/20";
+    position: absolute;
+    background: #4661b0;
+    width: 10px;
+    height: 27px;
+    bottom: -7px;
+    right: -9px;
+    border: 5px solid white;
+    border-radius: 20px;
+}
+
+.logo:after {
+    content: "/20";
+    position: absolute;
+    width: 14px;
+    top: 13px;
+    height: 6px;
+    background: white;
+    right: 1.5px;
+}
+
+.instagram {
+    position: relative;
+    margin: 0px 15px 0px 15px;
+    width: 30px;
+    height: 30px;
+    border-radius: 18.5%;
+    box-shadow: 0 0 7.5vmin rgba(0, 0, 0, 0.5);
+    background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+  }
+  
+  .instagram:before, .instagram:after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 28px;
+    height: 28px;
+    border: solid 2px #fff;
+    transform: translate(-50%, -50%);
+    content: '';
+  }
+  .instagram:before {
+    border-radius: 18.5%;
+  }
+  .instagram:after {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    box-shadow: 6.5px -7.5px 0 -5.5px #fff;
+  }  

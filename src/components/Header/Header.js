@@ -9,10 +9,12 @@ const Header = () => {
                 <p>First</p>
             </div>
             <div className="secondComponent">
-                <a href="">Главная</a>
-                <a href="">Стафф</a>
-                <a href="">Галерея</a>
-                <a href="">Контакты</a>
+                <ul>
+                    <li><a href="">Главная</a></li>
+                    <li><a href="">Стафф</a></li>
+                    <li><a href="">Галерея</a></li>
+                    <li><a href="">Контакты</a></li>
+                </ul>
             </div>
             <div className="thirdComponent">
                 <p>848848484</p>
