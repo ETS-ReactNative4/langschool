@@ -2,8 +2,8 @@ import React from 'react';
 import './SideBar.css';
 
 const HideSideBar = () =>{
-    const sideBar = document.getElementById('sideBar');
-    sideBar.style.visibility = 'hidden';
+    const sideBar = document.getElementById('sideBar').style.visibility = 'hidden';
+    document.getElementById('sideBarCaller').style.visibility = 'visible';
 }
 
 const SideBar = () => {
