@@ -15,9 +15,6 @@ const About = () => {
                 <h3>Пятиразовое питание</h3>
                 <p>Ogólnie znana teza głosi, iż użytkownika może rozpraszać zrozumiała zawartość strony,</p>
             </div>
-            <div className="heiwid">
-                <button className="aboutButton">Подробнее о нас</button>
-            </div>
         </div>
     )
 }
