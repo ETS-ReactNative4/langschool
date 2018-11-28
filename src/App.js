@@ -5,6 +5,7 @@ import About from './components/About/About';
 import StaffCardsHolder from './components/StaffCardsHolder/StaffCardsHolder';
 import Portfolio from './components/Portfolio/Portfolio';
 import Footer from './components/Footer/Footer';
+import SeasonCardHolder from './components/SeasonCardHolder/SeasonCardHolder';
 
 class App extends Component {
   constructor() {
@@ -19,6 +20,7 @@ class App extends Component {
       <div className="App">
         <Banner />
         <About />
+        <SeasonCardHolder />
         <StaffCardsHolder />
         <Portfolio />
         <Footer />

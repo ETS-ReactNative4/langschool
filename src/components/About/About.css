@@ -11,14 +11,6 @@
     width: 70vw;
 }
 
-.heiwid {
-    display: flex;
-    justify-content: center;
-    height: 7vh;
-    width: 100vw;
-    margin-bottom: 10px;
-}
-
 .aboutButton {
     border: none;
     border-radius: 25px;
