@@ -21,8 +21,7 @@
 
     .seasonCardCollection {
         width: 90%;
-        justify-content: initial;
+        justify-content: space-between;
         flex-flow: column;
-        margin: auto; /*Delete, in order to resize the card*/
     }
 }

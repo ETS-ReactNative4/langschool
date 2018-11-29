@@ -27,9 +27,9 @@ class App extends Component {
         <SideBarCaller />
         <SideBar />
         <Banner />
-        <About />
         <SeasonsDiv />
         <SeasonCardHolder />
+        <About />
         <StaffCardsDiv />
         <StaffCardsHolder />
         <Form />

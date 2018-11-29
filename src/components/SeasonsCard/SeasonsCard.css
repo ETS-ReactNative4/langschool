@@ -87,7 +87,6 @@
 @media all and (max-width: 1200px) {
     .seasonCard {
         width: initial;
-        height: 34%;
         margin: 10px;
     }
 }

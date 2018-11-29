@@ -13,3 +13,18 @@
     margin-left: 10%;
     margin-bottom: 0;
 }
+
+@media all and (max-width: 1200px) {
+    #seasonsDiv p {
+        font-size: 30px;
+    }
+
+    #staffCardsDiv p {
+        font-size: 30px !important;
+        margin-left: 0 !important;
+    }
+
+    #staffCardsDiv {
+        justify-content: center !important;
+    }
+}
