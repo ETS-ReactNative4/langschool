@@ -9,7 +9,7 @@ const Footer = () => {
             <div className="firstCol">
                 <img src={image} alt="Logo"/>
                 <a href="">Политика конфиденциальности</a>
-                <p>&#169;2018 LangSchool</p>
+                <p>&#169;2018 LingvoDom</p>
             </div>
             <div className="secondCol">
                 <a href="">Лагерь с изучением английского языка</a>

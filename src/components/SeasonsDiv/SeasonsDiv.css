@@ -1,0 +1,15 @@
+#seasonsDiv {
+    width: 100%;
+    height: 8%;
+    display: flex;
+}
+
+#seasonsDiv p {
+    text-align: left;
+    font-size: 36px;
+    font-family: 'Roboto',Arial,sans-serif;
+    font-weight: 600;
+    color: #000;
+    margin-left: 10%;
+    margin-bottom: 0;
+}
