@@ -6,6 +6,7 @@ const Banner = () => {
 
     return (
         <div id="banner">
+            <div className="blurbackground"></div>
             <Header />
             <div className="bannerContent">
                 <div id="bannerInfo">
