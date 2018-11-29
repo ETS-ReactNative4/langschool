@@ -1,5 +1,6 @@
 import React from 'react';
 import './SideBar.css';
+import image from './img/logo.png';
 
 const HideSideBar = () =>{
     document.getElementById('sideBar').style.visibility = 'hidden';
@@ -16,7 +17,7 @@ const SideBar = () => {
                 <div className="closeIcon" onClick={HideSideBar}></div>
             </div>
             <div id="sideBarLogoWrapper">
-                <img src="" alt="logo"/>
+                <img src={image} alt="logo"/>
             </div>
             <div id="sideBarMenuWrapper">
                 <ul>
