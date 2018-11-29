@@ -147,7 +147,7 @@
 
 .instagram {
     position: relative;
-    margin: 0px 15px 0px 15px;
+    margin: 0px 14px 0px 16px;
     width: 35px;
     height: 35px;
     border-radius: 18.5%;
@@ -161,7 +161,7 @@
     left: 50%;
     width: 28px;
     height: 28px;
-    border: solid 2px #fff;
+    border: solid 1.5px #fff;
     transform: translate(-50%, -50%);
     content: '';
   }

@@ -17,7 +17,7 @@ const Header = () => {
                 </ul>
             </div>
             <div className="thirdComponent">
-                <p>848848484</p>
+                <p>+7 (777) 156-76-35</p>
                 <button className="applyButton">Оформить заявку</button>
             </div>
         </div>

@@ -3,7 +3,7 @@
     flex-wrap: nowrap;
     height: 14.8vh;
     width: 100vw;
-    justify-content: flex-end;
+    justify-content: flex-start;
 }
 
 .firstComponent {
@@ -26,7 +26,13 @@
     display: flex;
 }
 
+.secondComponent ul :hover {
+    color: #a8a8a8;
+    transition: 0.3s ease-in-out;
+}
+
 .secondComponent a {
+    transition: 0.3s ease-in-out;
     margin-right: 10px;
     text-decoration: none;
     color: white;
@@ -41,11 +47,16 @@
     justify-content: center;
     align-items: center;
     display: flex;
+    margin-left: 3.2%;
 }
 
 .thirdComponent p {
     color: white;  
     margin-right: 35px;
+    font-family: 'Roboto',Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
 }
 
 .thirdComponent button {
