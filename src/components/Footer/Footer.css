@@ -217,4 +217,22 @@
     .thirdCol :last-child {
         margin-bottom: 20px;
     }
+
+    .fourthCol {
+        order: 2;
+        width: unset;
+        height: unset;
+        align-self: flex-start;
+    }
+
+    .fourthCol1 {
+        height: unset;
+        width: unset;
+        align-items: unset;
+    }
+
+    .fourthCol2 {
+        height: unset;
+        width: unset;
+    }
 }

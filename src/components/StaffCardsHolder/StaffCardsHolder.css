@@ -20,12 +20,9 @@
     }
 
     .staffCardsCollection {
-        justify-content: unset;
-        flex-flow: column;
+        justify-content: space-around;
+        flex-flow: row;
+        flex-wrap: wrap;
         margin-top: 60px;
-    }
-
-    .staffCard {
-        width: initial !important;
     }
 }
