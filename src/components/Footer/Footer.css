@@ -193,6 +193,7 @@
     .firstCol img {
         margin-top: 10px;
         margin-bottom: 10px;
+        margin-left: 0;
         height: 124px;
         width: 183.3px;
     }
