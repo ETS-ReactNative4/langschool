@@ -10,7 +10,7 @@
     width: 26.7%;
     justify-content: center;
     align-items: center;
-    color: black;
+    color: white;
     display: flex;
 }
 
@@ -29,7 +29,11 @@
 .secondComponent a {
     margin-right: 10px;
     text-decoration: none;
-    color: black;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Arial';
+    text-transform: uppercase;
 }
 
 .thirdComponent {
@@ -40,7 +44,7 @@
 }
 
 .thirdComponent p {
-    color: black;  
+    color: white;  
     margin-right: 35px;
 }
 
@@ -48,8 +52,16 @@
     color: black;
     height: 34.7%;
     width: 53%;
-    background-color: green;
+    background-color:#fff243;
     border: none;
+    font-family: 'Roboto',Arial,sans-serif;
+    text-align: center;
+    white-space: nowrap;
+    font-weight: 700;
+    user-select: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    cursor: pointer;
 }
 
 @media all and (max-width: 1200px) {

@@ -24,6 +24,7 @@ const Footer = () => {
                 <a href="">Летний сезон</a>
             </div>
             <div className="fourthCol">
+                <p>Контакты</p>
                 <a href="" className="logo">Facebook</a>
                 <a href="" className="instagram"></a>
                 <p>+7(775) 156-76-35</p>
