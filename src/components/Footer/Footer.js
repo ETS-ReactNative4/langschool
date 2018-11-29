@@ -24,10 +24,14 @@ const Footer = () => {
                 <a href="">Летний сезон</a>
             </div>
             <div className="fourthCol">
-                <p>Контакты</p>
-                <a href="" className="logo">Facebook</a>
-                <a href="" className="instagram"></a>
+                <div className="fourthCol1">
+                <p>Контакты:</p>
                 <p>+7(775) 156-76-35</p>
+                </div>
+                <div className="fourthCol2">
+                <a href="">Facebook</a>
+                <a href="" className="instagram"></a>
+                </div>
             </div>
         </div>
     )

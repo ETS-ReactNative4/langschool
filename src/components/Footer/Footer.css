@@ -87,9 +87,30 @@
     align-self: center;
     align-items: center;
     color: bisque;
+    justify-content: center;
 }
 
-.logo {
+.fourthCol1 {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    width: 50%;
+    align-items: center;
+}
+
+.fourthCol1 :last-child {
+    margin-top: 0;
+}
+
+.fourthCol2 {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    width: 50%;
+    align-items: center;
+}
+
+.fourthCol2 :first-child {
     background: #4661b0;
     text-indent: -999em;
     width: 22px;
@@ -99,9 +120,10 @@
     overflow: hidden;
     border: 3.5px solid #4661b0;
     border-bottom: 0;
+    margin-bottom: 10px;
 }
 
-.logo:before {
+.fourthCol2 :first-child:before {
     content: "/20";
     position: absolute;
     background: #4661b0;
@@ -113,7 +135,7 @@
     border-radius: 20px;
 }
 
-.logo:after {
+.fourthCol2 :first-child:after {
     content: "/20";
     position: absolute;
     width: 14px;
@@ -194,12 +216,5 @@
 
     .thirdCol :last-child {
         margin-bottom: 20px;
-    }
-
-    .fourthCol {
-        order: 2;
-        width: initial;
-        height: initial;
-        align-self: unset;
     }
 }
