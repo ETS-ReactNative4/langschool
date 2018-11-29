@@ -1,0 +1,99 @@
+#Form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+}
+
+.firstPart {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    background-image: url('./img/winter2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form {
+    display: flex;
+    flex-flow: column;
+    width: 25%;
+    height: 90%;
+    align-items: center;
+}
+
+.firstPart form p {
+    margin-top: 0;
+    align-self: flex-start;
+    width: 170px;
+    margin-left: 15%;
+}
+
+.firstPart :last-child {
+    text-align: center;
+    margin-right: 20%;
+    margin-left: 20%;
+    line-height: 1.55;
+    font-size: 15px;
+    font-family: 'Roboto',Arial,sans-serif;
+    font-weight: 300;
+    box-shadow: none;
+}
+
+.firstPart :last-child a{
+    text-decoration: none;
+    color: #ff8562;
+    margin: 0;
+}
+
+.twoForm {
+    width: 70%;
+    font-size: 20px;
+    height: 35px;
+    font-size: 18px;
+    margin-bottom: 25px;
+    border-radius: 4px;
+}
+
+.comments {
+    width: 70%;
+    height: 70px;
+    font-size: 12px;
+    margin-bottom: 25px;
+    border-radius: 4px;
+}
+
+.submitButton {
+    color: #000;
+    width: 70%;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+    padding: 0 30px;
+    font-size: 15px;
+    margin: 0;
+    background-color: #ff8562;
+    border-bottom: 4px solid #6ee9fd;
+}
+
+.submitButton:hover {
+    transition: all 0.5s;
+    background: #fff;
+    color: #2c536c;
+}
+
+form input:hover {
+    box-shadow: 0 0 6px 3px rgba(58, 219, 253, 0.35);
+}
+
+.firstPart p {
+    width: 25%;
+}
+
+
+
+
+

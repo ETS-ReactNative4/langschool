@@ -4,16 +4,19 @@
     flex-flow: column;
     width: 23.6%;
     height: 80%;
-    opacity: 1;
-    border-style: solid;
-    border-width: 0.3px;
-    border-color: rgba(136,136,136);
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.3);
     transition: 350ms ease-in-out;
 }
 
 .seasonCard:hover {
     transition: 350ms ease-in-out;
-    box-shadow: -8px 8px 38px -3px rgba(136,136,136,0.85);
+    box-shadow: 0px 10px 30px 0 rgba(0, 0, 0, 0.3);
+}
+
+.seasonCard:hover img {
+    transition: 350ms ease-in-out;
+    box-shadow: 0px 0px 0px 0 rgba(0, 0, 0, 0.3);
+    opacity: 0.8;
 }
 
 .seasonCard img {
@@ -22,6 +25,8 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    transition: 350ms ease-in-out;
+    opacity: 1;
 }
 
 .cardText {
