@@ -18,3 +18,9 @@
     min-width: 125px;
     min-height: 50px;
 }
+
+@media all and (max-width: 1200px) {
+    .aboutText {
+        width: 90vw;
+    }
+}

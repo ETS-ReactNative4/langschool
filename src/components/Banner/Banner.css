@@ -1,8 +1,5 @@
 #banner {
-    background-image: url('./img/photo.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
+    /* height: 100vh; */
     width: 100vw;
 }
 
@@ -115,4 +112,11 @@
     border-left: solid 1px currentColor;
     -webkit-transform: rotate(-45deg);
             transform: rotate(-45deg);
+}
+
+@media all and (max-width: 1200px) {
+    #bannerInfo {
+        width: 95vw;
+        right: 0;
+    }
 }

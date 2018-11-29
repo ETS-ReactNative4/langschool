@@ -9,6 +9,7 @@
     width: 300px;
     background-color: #eff4f8;
     visibility: hidden;
+    z-index: 100;
 }
 
 .closeSideBar {
