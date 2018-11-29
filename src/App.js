@@ -9,6 +9,9 @@ import SeasonCardHolder from './components/SeasonCardHolder/SeasonCardHolder';
 import Form from './components/Form/Form';
 import SideBarCaller from './components/SideBarCaller/SideBarCaller';
 import SideBar from './components/SideBar/SideBar';
+import SeasonsDiv from './components/SeasonsDiv/SeasonsDiv';
+import StaffCardsDiv from './components/StaffCardsDiv/StaffCardsDiv';
+
 
 class App extends Component {
   constructor() {
@@ -25,7 +28,9 @@ class App extends Component {
         <SideBar />
         <Banner />
         <About />
+        <SeasonsDiv />
         <SeasonCardHolder />
+        <StaffCardsDiv />
         <StaffCardsHolder />
         <Form />
         <Portfolio />

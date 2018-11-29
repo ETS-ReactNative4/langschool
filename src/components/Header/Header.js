@@ -12,7 +12,7 @@ const Header = () => {
             <div className="secondComponent">
                 <ul>
                     <li><a href="">Главная</a></li>
-                    <li><a href="">Стафф</a></li>
+                    <li><a href="">Сезоны</a></li>
                     <li><a href="">Галерея</a></li>
                     <li><a href="">Контакты</a></li>
                 </ul>
