@@ -2,8 +2,10 @@ import React from 'react';
 import './SideBar.css';
 
 const HideSideBar = () =>{
-    const sideBar = document.getElementById('sideBar').style.visibility = 'hidden';
+    document.getElementById('sideBar').style.visibility = 'hidden';
     document.getElementById('sideBarCaller').style.visibility = 'visible';
+
+    document.getElementById('root').removeChild(document.getElementById('tempSideBarBlack'));
 }
 
 const SideBar = () => {
@@ -18,7 +20,7 @@ const SideBar = () => {
             </div>
             <div id="sideBarMenuWrapper">
                 <ul>
-                    <li><a href="">Главная</a></li>
+                    <li><a href="" onClick={HideSideBar}>Главная</a></li>
                     <li><a href="">Смены</a></li>
                     <li><a href="">О нас</a></li>
                     <li><a href="">Отзывы</a></li>
