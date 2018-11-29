@@ -188,6 +188,13 @@
         justify-content: flex-end;
     }
 
+    .firstCol img {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        height: 124px;
+        width: 183.3px;
+    }
+
     .secondCol {
         width: initial;
         height: initial;
