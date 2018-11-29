@@ -18,7 +18,7 @@ const Banner = () => {
                 </div>
             </div>
             <div className="arrow">
-                <div className="arrowDown"></div>
+                <div className="arrowDown arrowAnimation"></div>
             </div>
         </div>
     )
