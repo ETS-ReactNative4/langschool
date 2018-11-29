@@ -123,3 +123,38 @@
         right: 0;
     }
 }
+
+.arrowAnimation {
+    position: relative;
+    top: 0px;
+    animation-name: 'godown';
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-direction: alternate;
+    animation-timing-function: ease;
+}
+
+@keyframes godown {
+    0% {top: 0px;}
+    5% {top: 1px}
+    10% {top: 2px;}
+    15% {top: 3px;}
+    20% {top: 4px;}
+    25% {top: 5px;}
+    30% {top: 6px;}
+    35% {top: 7px;}
+    40% {top: 8px;}
+    45% {top: 9px;}
+    50% {top: 10px;}
+    55% {top: 11px;}
+    60% {top: 12px}
+    65% {top: 13px;}
+    70% {top: 14px;}
+    75% {top: 15px;}
+    80% {top: 16px;}
+    85% {top: 17px;}
+    90% {top: 18px;}
+    95% {top: 19px;}
+    100% {top: 20px;}
+}
