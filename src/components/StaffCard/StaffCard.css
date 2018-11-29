@@ -24,3 +24,15 @@
     font-weight: 300;
     color: #494949;
 }
+
+@media all and (max-width: 1200px) {
+    .staffCard {
+        width: 220px !important;
+        height: 435px;
+    }
+
+    .staffCard img {
+        height: 305px;
+        width: 220px;
+    }
+}
