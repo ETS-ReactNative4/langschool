@@ -24,19 +24,19 @@ self.__precacheManifest = [
     "url": "/langschool/static/js/runtime~main.5a508ba0.js"
   },
   {
-    "revision": "f98f7b0fdbbb3a3db8ee",
-    "url": "/langschool/static/js/main.f98f7b0f.chunk.js"
+    "revision": "1010ae00e26389ec8150",
+    "url": "/langschool/static/js/main.1010ae00.chunk.js"
   },
   {
     "revision": "1fbb6dfa78871603eac6",
     "url": "/langschool/static/js/1.1fbb6dfa.chunk.js"
   },
   {
-    "revision": "f98f7b0fdbbb3a3db8ee",
-    "url": "/langschool/static/css/main.d9cf4a53.chunk.css"
+    "revision": "1010ae00e26389ec8150",
+    "url": "/langschool/static/css/main.1f5f1104.chunk.css"
   },
   {
-    "revision": "2c720cfc1cd1bae64cd029350c473609",
+    "revision": "dbea60a37c755ea44aff251edbcde079",
     "url": "/langschool/index.html"
   }
 ];
