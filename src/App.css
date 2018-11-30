@@ -5,4 +5,5 @@
 .App {
     display: flex;
     flex-flow: column;
+    overflow-y: hidden;
 }
