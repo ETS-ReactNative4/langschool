@@ -130,7 +130,11 @@
             transform: rotate(-45deg);
 }
 
-@media all and (max-width: 1200px) {
+@media all and (max-width: 800px) {
+    #banner {
+        background-attachment: initial;
+    }
+
     #bannerInfo {
         width: 95vw;
         right: 0;
@@ -150,6 +154,12 @@
     animation-delay: 1s;
     animation-direction: alternate;
     animation-timing-function: ease;
+}
+
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+    #banner {
+        background-attachment: initial;
+    }
 }
 
 @keyframes godown {
