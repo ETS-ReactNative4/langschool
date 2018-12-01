@@ -1,7 +1,7 @@
 {
-  "main.css": "/langschool/static/css/main.c906e0d5.chunk.css",
-  "main.js": "/langschool/static/js/main.6f359518.chunk.js",
-  "main.js.map": "/langschool/static/js/main.6f359518.chunk.js.map",
+  "main.css": "/langschool/static/css/main.7ec275c5.chunk.css",
+  "main.js": "/langschool/static/js/main.2587bce5.chunk.js",
+  "main.js.map": "/langschool/static/js/main.2587bce5.chunk.js.map",
   "static/css/1.ea537a26.chunk.css": "/langschool/static/css/1.ea537a26.chunk.css",
   "static/js/1.c709a592.chunk.js": "/langschool/static/js/1.c709a592.chunk.js",
   "static/js/1.c709a592.chunk.js.map": "/langschool/static/js/1.c709a592.chunk.js.map",
@@ -27,9 +27,9 @@
   "static/media/14.jpg": "/langschool/static/media/14.f6beb455.jpg",
   "static/media/15.jpg": "/langschool/static/media/15.0d8b48de.jpg",
   "static/media/Banner.css": "/langschool/static/media/photo.54550f39.jpg",
-  "static/css/main.c906e0d5.chunk.css.map": "/langschool/static/css/main.c906e0d5.chunk.css.map",
+  "static/css/main.7ec275c5.chunk.css.map": "/langschool/static/css/main.7ec275c5.chunk.css.map",
   "static/css/1.ea537a26.chunk.css.map": "/langschool/static/css/1.ea537a26.chunk.css.map",
   "index.html": "/langschool/index.html",
-  "precache-manifest.659c52add0f4b96b8da58d6f47b1a324.js": "/langschool/precache-manifest.659c52add0f4b96b8da58d6f47b1a324.js",
+  "precache-manifest.16498904b259618896f3f86877128bb8.js": "/langschool/precache-manifest.16498904b259618896f3f86877128bb8.js",
   "service-worker.js": "/langschool/service-worker.js"
 }
