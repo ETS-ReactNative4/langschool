@@ -6,4 +6,5 @@
     display: flex;
     flex-flow: column;
     overflow-y: hidden;
+    overflow-x: hidden;
 }
