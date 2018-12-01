@@ -1,16 +1,12 @@
 #footer {
     display: flex;
-    flex-wrap: nowrap;
-    width: 100vw;
-    height: 39.7%;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
     background-color: black;
 }
 
 .firstCol {
     display: flex;
-    width: 23.5%;
-    height: 65%;
     flex-flow: column;
     align-items: flex-start;
 }
@@ -33,10 +29,7 @@
 
 .secondCol {
     display: flex;
-    width: 22%;
-    height: 50.8%;
     flex-flow: column;
-    align-items: flex-start;
 }
 
 .secondCol :first-child {
@@ -57,10 +50,7 @@
 
 .thirdCol {
     display: flex;
-    width: 22%;
-    height: 55%;
     flex-flow: column;
-    align-items: center;
 }
 
 .thirdCol :first-child {
@@ -81,32 +71,24 @@
 
 .fourthCol {
     display: flex;
-    width: 22%;
-    height: 55%;
-    align-self: center;
-    align-items: center;
     color: bisque;
-    justify-content: center;
 }
 
 .fourthCol1 {
     display: flex;
     flex-flow: column;
-    height: 100%;
-    width: 50%;
     align-items: center;
 }
 
 .fourthCol1 :last-child {
-    margin-top: 0;
+    margin-top: 15px;
 }
 
 .fourthCol2 {
     display: flex;
     flex-flow: column;
-    height: 100%;
-    width: 50%;
     align-items: center;
+    margin-top: 15px;
 }
 
 .fourthCol2 :first-child {
@@ -174,62 +156,20 @@
     box-shadow: 6.5px -7.5px 0 -5.5px #fff;
   }
 
-@media all and (max-width:1200px) {
+@media all and (max-width:700px) {
     #footer {
-        padding-left: 20px;
-        height: initial;
-        flex-flow: column;
-    }
-
-    .firstCol {
-        width: 90%;
-        order: 1;
-        justify-content: flex-end;
-    }
-
-    .firstCol img {
-        margin-top: 10px;
-        margin-bottom: 10px;
-        margin-left: 0;
-        height: 124px;
-        width: 183.3px;
+        justify-content: flex-start;
+        padding-left: 15px;
     }
 
     .secondCol {
-        width: initial;
-        height: initial;
-        align-items: initial;
-        margin-top: 15px;
-        justify-content: space-around;
-        order: 3;
-    }
-
-    .secondCol a {
-        margin-top: 10px;
-    }
-
-    .thirdCol {
-        margin-top: 20px;
-        width: initial;
-        height: initial;
-        align-items: initial;
-        order: 4;
-    }
-
-    .thirdCol a {
-        margin-top: 10px;
-        margin-bottom: 0px;
-    }
-
-    .thirdCol :last-child {
+        width: 100%;
         margin-bottom: 20px;
     }
 
     .fourthCol {
+        width: 100%;
         order: 2;
-        width: unset;
-        height: unset;
-        align-self: flex-start;
     }
 
     .fourthCol1 {
@@ -241,5 +181,9 @@
     .fourthCol2 {
         height: unset;
         width: unset;
+    }
+
+    .fourthCol2 :last-child {
+        margin-top: 0;
     }
 }
