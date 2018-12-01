@@ -102,6 +102,7 @@ class Gallery extends Component {
         
         return (
             <div id="gallery">
+                <p>Как это было</p>
                 <ImageGallery items={images} />
             </div>
         );
