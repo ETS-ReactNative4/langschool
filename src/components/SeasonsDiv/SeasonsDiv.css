@@ -2,6 +2,8 @@
     width: 100%;
     height: 8%;
     display: flex;
+    margin-bottom: 15px;
+    margin-top: 10px;
 }
 
 #seasonsDiv p {
@@ -15,6 +17,11 @@
 }
 
 @media all and (max-width: 1200px) {
+    #seasonsDiv {
+        height: initial;
+        width: initial;
+    }
+
     #seasonsDiv p {
         font-size: 30px;
     }
