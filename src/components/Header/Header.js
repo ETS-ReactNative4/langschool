@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-import image from './img/logo.png';
+import image from './img/whitelogo.png';
 
 const Header = () => {
 
@@ -11,15 +11,15 @@ const Header = () => {
             </div>
             <div className="secondComponent">
                 <ul>
-                    <li><a href="">Главная</a></li>
-                    <li><a href="">Сезоны</a></li>
-                    <li><a href="">Галерея</a></li>
-                    <li><a href="">Контакты</a></li>
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#seasonsDiv">Сезоны</a></li>
+                    <li><a href="#gallery">Галерея</a></li>
+                    <li><a href="#about">О нас</a></li>
                 </ul>
             </div>
             <div className="thirdComponent">
                 <p>+7 (777) 156-76-35</p>
-                <button className="applyButton">Оформить заявку</button>
+                <button className="applyButton"><a href="#form">Оформить заявку</a></button>
             </div>
         </div>
     )

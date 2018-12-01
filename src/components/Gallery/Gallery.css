@@ -3,10 +3,23 @@
 #gallery {
     display: flex;
     justify-content: center;
+    flex-flow: column;
 }
 
 .image-gallery {
     width: 55%;
+    align-self: center;
+}
+
+#gallery p {
+    text-align: left;
+    font-size: 36px;
+    font-family: 'Roboto',Arial,sans-serif;
+    font-weight: 600;
+    color: #000;
+    margin-left: 10%;
+    display: flex;
+    margin-left: 11%;
 }
 
 @media all and (max-width: 1200px) {

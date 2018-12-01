@@ -12,7 +12,7 @@ const SeasonsCard = () => {
                 <p>Зимний английский лагерь в Подмосковье для детей от 7 до 17 лет</p>
             </div>
             <div className="heiwid">
-                <button className="applicationButton">Оформить заявку</button>
+                <button className="applicationButton"><a href="#form">Оформить заявку</a></button>
             </div>
         </div>
     )
