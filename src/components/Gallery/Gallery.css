@@ -1,0 +1,16 @@
+@import "../../../node_modules/react-image-gallery/styles/css/image-gallery.css";
+
+#gallery {
+    display: flex;
+    justify-content: center;
+}
+
+.image-gallery {
+    width: 55%;
+}
+
+@media all and (max-width: 1200px) {
+    .image-gallery {
+        width: unset;
+    }
+}
