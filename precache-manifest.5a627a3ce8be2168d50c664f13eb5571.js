@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "bb3a26fccc01bbd98e60fcec2667eb1c",
-    "url": "/langschool/static/media/7.bb3a26fc.jpg"
+    "revision": "ecd7babab958d6b3fcd8ce48e36adbf8",
+    "url": "/langschool/static/media/6.ecd7baba.jpg"
   },
   {
-    "revision": "1f94ea27a61721cfde0e",
-    "url": "/langschool/static/css/main.bc0b568a.chunk.css"
+    "revision": "0714f25db974df34bf9a",
+    "url": "/langschool/static/css/main.4d147d34.chunk.css"
   },
   {
     "revision": "54550f3993715d5704cbc6e959bf62c3",
@@ -20,8 +20,8 @@ self.__precacheManifest = [
     "url": "/langschool/static/js/runtime~main.5a508ba0.js"
   },
   {
-    "revision": "842d6c2c7e264f551fd44e356d7da7f5",
-    "url": "/langschool/static/media/logo.842d6c2c.png"
+    "revision": "cfbdb48dd9e038fe537c80464b50bc52",
+    "url": "/langschool/static/media/whitelogo.cfbdb48d.png"
   },
   {
     "revision": "01673d767bd2d1a50c0b25ed6bbfa7cb",
@@ -30,6 +30,10 @@ self.__precacheManifest = [
   {
     "revision": "72fd5e8963fc51cf3af68eb329f3b3bc",
     "url": "/langschool/static/media/winter.72fd5e89.jpg"
+  },
+  {
+    "revision": "842d6c2c7e264f551fd44e356d7da7f5",
+    "url": "/langschool/static/media/logo.842d6c2c.png"
   },
   {
     "revision": "220fa2294672a3890c0ae76594072056",
@@ -76,12 +80,12 @@ self.__precacheManifest = [
     "url": "/langschool/static/media/6.18cb6303.jpg"
   },
   {
-    "revision": "ecd7babab958d6b3fcd8ce48e36adbf8",
-    "url": "/langschool/static/media/6.ecd7baba.jpg"
+    "revision": "0714f25db974df34bf9a",
+    "url": "/langschool/static/js/main.0714f25d.chunk.js"
   },
   {
-    "revision": "1f94ea27a61721cfde0e",
-    "url": "/langschool/static/js/main.1f94ea27.chunk.js"
+    "revision": "bb3a26fccc01bbd98e60fcec2667eb1c",
+    "url": "/langschool/static/media/7.bb3a26fc.jpg"
   },
   {
     "revision": "2bfbcf0733d0f7509b4ba0e6b03e2963",
@@ -156,7 +160,7 @@ self.__precacheManifest = [
     "url": "/langschool/static/css/1.ea537a26.chunk.css"
   },
   {
-    "revision": "e61db10316e507ce27a3a0a947b7b735",
+    "revision": "b2aa47a3f200280d56bb581f3749a56a",
     "url": "/langschool/index.html"
   }
 ];
