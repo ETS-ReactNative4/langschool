@@ -22,11 +22,11 @@ const SideBar = () => {
             <div id="sideBarMenuWrapper">
                 <ul>
                     <li><a href="#" onClick={HideSideBar}>Главная</a></li>
-                    <li><a href="#seasonsDiv">Смены</a></li>
-                    <li><a href="#about">О нас</a></li>
-                    <li><a href="#staffCardsDiv">Наш коллектив</a></li>
-                    <li><a href="#footer">Контакты</a></li>
-                    <li><a href="#form">Оформить заявку</a></li>
+                    <li><a href="#seasonsDiv" onClick={HideSideBar}>Смены</a></li>
+                    <li><a href="#about" onClick={HideSideBar}>О нас</a></li>
+                    <li><a href="#staffCardsDiv" onClick={HideSideBar}>Наш коллектив</a></li>
+                    <li><a href="#footer" onClick={HideSideBar}>Контакты</a></li>
+                    <li><a href="#form" onClick={HideSideBar}>Оформить заявку</a></li>
                 </ul>
             </div>
             <div className="sideBarButtonsWrapper">

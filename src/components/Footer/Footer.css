@@ -167,6 +167,10 @@
         margin-bottom: 20px;
     }
 
+    .secondCol a {
+        margin-bottom: 0;
+    }
+
     .fourthCol {
         width: 100%;
         order: 2;
