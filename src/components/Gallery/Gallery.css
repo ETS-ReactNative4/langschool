@@ -11,6 +11,6 @@
 
 @media all and (max-width: 1200px) {
     .image-gallery {
-        width: unset;
+        width: 100%;
     }
 }

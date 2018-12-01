@@ -122,14 +122,28 @@ form input:hover {
         margin-right: 0 !important;
         margin-left: 0 !important;
         width: initial;
+        align-self: center;
     }
 
     form {
-        width: 100%;
+        width: 80%;
         height: initial;
+        align-items: flex-start;
     }
 
     form p {
-        margin-left: 15% !important;
+        margin-left: 0 !important;
+    }
+
+    .firstPart p {
+        width: initial;
+    }
+
+    .twoForm {
+        width: calc(100% - 10px);
+    }
+
+    #textarea {
+        width: calc(100% - 10px);
     }
 }
