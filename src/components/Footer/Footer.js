@@ -7,7 +7,7 @@ const Footer = () => {
     return (
         <div id="footer">
             <div className="firstCol">
-                <img src={image} alt="Logo"/>
+                <a href="#"><img src={image} alt="Logo"/></a>
                 <a href="">Политика конфиденциальности</a>
                 <p>&#169;2018 LingvoDom</p>
             </div>
