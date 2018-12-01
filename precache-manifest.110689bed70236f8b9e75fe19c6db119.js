@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/langschool/static/media/6.ecd7baba.jpg"
   },
   {
-    "revision": "0714f25db974df34bf9a",
-    "url": "/langschool/static/css/main.4d147d34.chunk.css"
+    "revision": "5c60ac12e581bd4c4899",
+    "url": "/langschool/static/css/main.4afd0c89.chunk.css"
   },
   {
     "revision": "54550f3993715d5704cbc6e959bf62c3",
@@ -80,8 +80,8 @@ self.__precacheManifest = [
     "url": "/langschool/static/media/6.18cb6303.jpg"
   },
   {
-    "revision": "0714f25db974df34bf9a",
-    "url": "/langschool/static/js/main.0714f25d.chunk.js"
+    "revision": "5c60ac12e581bd4c4899",
+    "url": "/langschool/static/js/main.5c60ac12.chunk.js"
   },
   {
     "revision": "bb3a26fccc01bbd98e60fcec2667eb1c",
@@ -160,7 +160,7 @@ self.__precacheManifest = [
     "url": "/langschool/static/css/1.ea537a26.chunk.css"
   },
   {
-    "revision": "b2aa47a3f200280d56bb581f3749a56a",
+    "revision": "894f337721a051e8fd0c280330854e60",
     "url": "/langschool/index.html"
   }
 ];
