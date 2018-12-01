@@ -21,12 +21,12 @@ const SideBar = () => {
             </div>
             <div id="sideBarMenuWrapper">
                 <ul>
-                    <li><a href="" onClick={HideSideBar}>Главная</a></li>
-                    <li><a href="">Смены</a></li>
-                    <li><a href="">О нас</a></li>
-                    <li><a href="">Отзывы</a></li>
-                    <li><a href="">Контакты</a></li>
-                    <li><a href="">Оформить заявку</a></li>
+                    <li><a href="#" onClick={HideSideBar}>Главная</a></li>
+                    <li><a href="#seasonsDiv">Смены</a></li>
+                    <li><a href="#about">О нас</a></li>
+                    <li><a href="#staffCardsDiv">Наш коллектив</a></li>
+                    <li><a href="#footer">Контакты</a></li>
+                    <li><a href="#form">Оформить заявку</a></li>
                 </ul>
             </div>
             <div className="sideBarButtonsWrapper">
