@@ -12,10 +12,10 @@ const Footer = () => {
                 <p>&#169;2018 LingvoDom</p>
             </div>
             <div className="secondCol">
-                <a href="">Лагерь с изучением английского языка</a>
-                <a href="">Главная</a>
-                <a href="">О нас</a>
-                <a href="">Виды лагеря</a>
+                <a href="#">Лагерь с изучением английского языка</a>
+                <a href="#">Главная</a>
+                <a href="#about">О нас</a>
+                <a href="#seasonsDiv">Виды лагеря</a>
             </div>
             <div className="thirdCol">
                 <a>Сезоны:</a>
@@ -29,8 +29,8 @@ const Footer = () => {
                 <p>+7(775) 156-76-35</p>
                 </div>
                 <div className="fourthCol2">
-                <a href="">Facebook</a>
-                <a href="" className="instagram"></a>
+                <a href="https://facebook.com/" target="_blank">Facebook</a>
+                <a href="https://www.instagram.com/" target="_blank" className="instagram"></a>
                 </div>
             </div>
         </div>
