@@ -3,7 +3,6 @@ import './App.css';
 import Banner from './components/Banner/Banner';
 import About from './components/About/About';
 import StaffCardsHolder from './components/StaffCardsHolder/StaffCardsHolder';
-import Portfolio from './components/Portfolio/Portfolio';
 import Footer from './components/Footer/Footer';
 import SeasonCardHolder from './components/SeasonCardHolder/SeasonCardHolder';
 import Form from './components/Form/Form';
@@ -11,6 +10,7 @@ import SideBarCaller from './components/SideBarCaller/SideBarCaller';
 import SideBar from './components/SideBar/SideBar';
 import SeasonsDiv from './components/SeasonsDiv/SeasonsDiv';
 import StaffCardsDiv from './components/StaffCardsDiv/StaffCardsDiv';
+import Gallery from './components/Gallery/Gallery';
 
 
 class App extends Component {
@@ -32,8 +32,8 @@ class App extends Component {
         <About />
         <StaffCardsDiv />
         <StaffCardsHolder />
+        <Gallery />
         <Form />
-        <Portfolio />
         <Footer />
       </div>
     );
