@@ -89,7 +89,8 @@
 
 @media all and (max-width: 1200px) {
     #header {
-        height: 24vw;
+        height: 24vh;
+        max-height: 160px;
         justify-content: center;
     }
 

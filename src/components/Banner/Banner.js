@@ -10,7 +10,7 @@ const Banner = () => {
             <Header />
             <div className="bannerContent">
                 <div id="bannerInfo">
-                    <p>Английский Лагерь в Подмосковье</p>
+                    <p>Английский лагерь в Подмосковье</p>
                     <p>Тренинги по английскому языку, творческие проекты, мастер-классы и многое другое!</p>
                     <div className="bannerBtnWrapper">
                         <a className="btn yellow-btn" href="#seasonsDiv">Ближайшие смены</a>
