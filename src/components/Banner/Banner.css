@@ -1,9 +1,11 @@
 #banner {
-    /* height: 100vh; */
+    height: 100vh;
     width: 100vw;
     background-image: url('./img/photo.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .blurbackground {
@@ -13,7 +15,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    height: 100%;
+    height: inherit;
     width: 100%;
 }
 
@@ -128,10 +130,18 @@
             transform: rotate(-45deg);
 }
 
-@media all and (max-width: 1200px) {
+@media all and (max-width: 800px) {
+    #banner {
+        background-attachment: initial;
+    }
+
     #bannerInfo {
         width: 95vw;
         right: 0;
+    }
+
+    .bannerContent {
+        height: 66vh;
     }
 }
 
@@ -144,6 +154,12 @@
     animation-delay: 1s;
     animation-direction: alternate;
     animation-timing-function: ease;
+}
+
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+    #banner {
+        background-attachment: initial;
+    }
 }
 
 @keyframes godown {
