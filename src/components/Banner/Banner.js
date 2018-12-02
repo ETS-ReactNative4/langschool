@@ -19,7 +19,7 @@ const Banner = () => {
                 </div>
             </div>
             <div className="arrow">
-                <div className="arrowDown arrowAnimation"></div>
+                <a href="#seasonsDiv"><div className="arrowDown arrowAnimation"></div></a> 
             </div>
         </div>
     )
