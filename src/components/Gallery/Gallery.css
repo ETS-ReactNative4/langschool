@@ -28,6 +28,14 @@
     }
 }
 
-#gallery * {
-    z-index: unset;
+.image-gallery-play-button {
+    z-index: 4 !important;
+}
+
+.image-gallery-left-nav {
+    z-index: 4 !important;
+}
+
+.image-gallery-right-nav {
+    z-index: 4 !important;
 }
