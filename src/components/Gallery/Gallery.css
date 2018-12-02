@@ -27,3 +27,7 @@
         width: 100%;
     }
 }
+
+#gallery * {
+    z-index: unset;
+}
