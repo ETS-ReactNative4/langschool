@@ -19,7 +19,7 @@ const Header = () => {
             </div>
             <div className="thirdComponent">
                 <p>+7 (777) 156-76-35</p>
-                <button className="applyButton"><a href="#form">Оформить заявку</a></button>
+                <a href="#form"><button className="applyButton">Оформить заявку</button></a>
             </div>
         </div>
     )

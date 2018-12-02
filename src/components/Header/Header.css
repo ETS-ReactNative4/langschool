@@ -68,18 +68,20 @@
 }
 
 .thirdComponent button {
-    height: 34.7%;
-    width: 53%;
-    background-color:#fff243;
+    background-color: #fff243;
     border: none;
-    font-family: 'Roboto',Arial,sans-serif;
-    text-align: center;
     white-space: nowrap;
     font-weight: 700;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
     user-select: none;
     font-size: 14px;
     text-transform: uppercase;
     cursor: pointer;
+    height: 40px;
+    width: 215px;
+    font-family: 'Roboto',Arial,sans-serif;
 }
 
 .thirdComponent a  {
