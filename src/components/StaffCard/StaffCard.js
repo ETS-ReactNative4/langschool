@@ -1,14 +1,13 @@
 import React from 'react';
 import './StaffCard.css';
-import image from './img/woman.jpg';
 
-const StaffCard = () => {
+const StaffCard = ({ image, name, position }) => {
 
     return (
         <div className="staffCard">
                 <img src={image} alt="worker n1"/>
-                <h3>Not Asian at all</h3>
-                <p>Руководитель проекта</p>
+                <h3>{name}</h3>
+                <p>{position}</p>
         </div>
     )
 }

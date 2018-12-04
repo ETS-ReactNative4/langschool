@@ -18,7 +18,7 @@ const Header = () => {
                 </ul>
             </div>
             <div className="thirdComponent">
-                <p>+7 (777) 156-76-35</p>
+                <p>+7 (778) 439-91-62</p>
                 <a href="#form"><button className="applyButton">Оформить заявку</button></a>
             </div>
         </div>
