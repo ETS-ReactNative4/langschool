@@ -4,6 +4,7 @@
     display: flex;
     justify-content: center;
     flex-flow: column;
+    background-color: #eff4f8;
 }
 
 .image-gallery {
