@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "c230b93cbc77975693bc12eb92cfba5a",
-    "url": "/langschool/static/media/7.c230b93c.jpg"
+    "revision": "ecd7babab958d6b3fcd8ce48e36adbf8",
+    "url": "/langschool/static/media/6.ecd7baba.jpg"
   },
   {
-    "revision": "135499cb77b7bdc3379a",
-    "url": "/langschool/static/css/main.2262728d.chunk.css"
+    "revision": "2f851a19c027034a6c73",
+    "url": "/langschool/static/css/main.eba02b11.chunk.css"
   },
   {
     "revision": "54550f3993715d5704cbc6e959bf62c3",
     "url": "/langschool/static/media/photo.54550f39.jpg"
   },
   {
-    "revision": "a083a68d33d8f62891b4",
-    "url": "/langschool/static/js/1.a083a68d.chunk.js"
+    "revision": "043c8a3acbe7ed0cde80",
+    "url": "/langschool/static/js/1.043c8a3a.chunk.js"
   },
   {
     "revision": "5a508ba0d0b407dafbb2",
@@ -41,7 +41,11 @@ self.__precacheManifest = [
   },
   {
     "revision": "7d5736d2f7f166ce4979e689fc75808b",
-    "url": "/langschool/static/media/second.7d5736d2.jpeg"
+    "url": "/langschool/static/media/2-8.7d5736d2.jpeg"
+  },
+  {
+    "revision": "5a77edf7c5838c5ea93a16c33b02b711",
+    "url": "/langschool/static/media/3-7.5a77edf7.jpg"
   },
   {
     "revision": "842d6c2c7e264f551fd44e356d7da7f5",
@@ -92,12 +96,12 @@ self.__precacheManifest = [
     "url": "/langschool/static/media/6.df4accfc.jpg"
   },
   {
-    "revision": "ecd7babab958d6b3fcd8ce48e36adbf8",
-    "url": "/langschool/static/media/6.ecd7baba.jpg"
+    "revision": "2f851a19c027034a6c73",
+    "url": "/langschool/static/js/main.2f851a19.chunk.js"
   },
   {
-    "revision": "135499cb77b7bdc3379a",
-    "url": "/langschool/static/js/main.135499cb.chunk.js"
+    "revision": "c230b93cbc77975693bc12eb92cfba5a",
+    "url": "/langschool/static/media/7.c230b93c.jpg"
   },
   {
     "revision": "2bfbcf0733d0f7509b4ba0e6b03e2963",
@@ -184,11 +188,11 @@ self.__precacheManifest = [
     "url": "/langschool/static/media/17.456d584f.jpg"
   },
   {
-    "revision": "a083a68d33d8f62891b4",
-    "url": "/langschool/static/css/1.87b5b9a5.chunk.css"
+    "revision": "043c8a3acbe7ed0cde80",
+    "url": "/langschool/static/css/1.0a9be40b.chunk.css"
   },
   {
-    "revision": "e8c0e993e19cea5efb4644dbc04b94b3",
+    "revision": "0d0dd481d9b883d9c61ebada1ce399f0",
     "url": "/langschool/index.html"
   }
 ];
