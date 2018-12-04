@@ -11,7 +11,7 @@ const SeasonsCard = ({ image, name, description }) => {
                 <p>{description}</p>
             </div>
             <div className="heiwid">
-                <button className="applicationButton"><a href="#form">Оформить заявку</a></button>
+                <a href="#form"><button className="applicationButton">Оформить заявку</button></a>
             </div>
         </div>
     )
