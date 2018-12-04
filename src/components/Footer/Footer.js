@@ -18,10 +18,10 @@ const Footer = () => {
                 <a href="#seasonsDiv">Виды лагеря</a>
             </div>
             <div className="thirdCol">
-                <a>Сезоны:</a>
-                <a href="">Зимний сезон</a>
-                <a href="">Весенний сезон</a>
-                <a href="">Летний сезон</a>
+                <a>Смены:</a>
+                <a href="">Зимняя смена</a>
+                <a href="">Весенняя смена</a>
+                <a href="">Летняя смена</a>
             </div>
             <div className="fourthCol">
                 <div className="fourthCol1">

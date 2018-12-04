@@ -102,7 +102,7 @@ class Gallery extends Component {
         
         return (
             <div id="gallery">
-                <p>Как это было</p>
+                <p>Галерея</p>
                 <ImageGallery items={images} showFullscreenButton={false}/>
             </div>
         );

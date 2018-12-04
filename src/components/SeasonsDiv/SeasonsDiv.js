@@ -5,7 +5,7 @@ const SeasonsDiv = () => {
 
     return (
         <div id="seasonsDiv">
-            <p>Ближайшие сезоны</p>
+            <p>Ближайшие смены</p>
         </div>
     )
 }

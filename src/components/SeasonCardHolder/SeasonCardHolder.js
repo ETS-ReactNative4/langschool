@@ -9,6 +9,7 @@ const SeasonCardHolder = () => {
             <div className="seasonCardCollection">
                 <SeasonsCard />
                 <SeasonsCard />
+                <SeasonsCard />
             </div>
         </div>
     )

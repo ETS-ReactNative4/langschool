@@ -6,14 +6,24 @@ const About = () => {
     return (
         <div id="about">
             <div className="aboutText">
-                <h1>Английский лагерь, что это?</h1>
-                <p>Ogólnie znana teza głosi, iż użytkownika może rozpraszać zrozumiała zawartość strony, kiedy ten chce zobaczyć sam jej wygląd. Jedną z mocnych stron używania Lorem Ipsum jest to, że ma wiele różnych „kombinacji” zdań, słów i akapitów, w przeciwieństwie do zwykłego: „tekst, tekst, tekst”, sprawiającego, że wygląda to „zbyt czytelnie” po polsku. Wielu webmasterów i designerów używa Lorem Ipsum jako domyślnego modelu tekstu i wpisanie w internetowej wyszukiwarce ‘lorem ipsum’ spowoduje znalezienie bardzo wielu stron, które wciąż są w budowie. Wiele wersji tekstu ewoluowało i zmieniało się przez lata, czasem przez przypadek, czasem specjalnie (humorystyczne wstawki itd).</p>
-                <h3>Тренинги по английскому языку</h3>
-                <p>Ogólnie znana teza głosi, iż użytkownika może rozpraszać zrozumiała zawartość strony,</p>
-                <h3>Комфортные условия проживания</h3>
-                <p>Ogólnie znana teza głosi, iż użytkownika może rozpraszać zrozumiała zawartość strony,</p>
-                <h3>Пятиразовое питание</h3>
-                <p>Ogólnie znana teza głosi, iż użytkownika może rozpraszać zrozumiała zawartość strony,</p>
+                <h1>Что такое LingvoCamp?</h1>
+                <p>LingvoCamp это больше чем просто англоязычный лагерь. В нашем языковом лагере
+                   проходят смены в весенние, летние, осенние и зимние каникулы. Участники наших
+                   программ не только получают новые знания по английскому языку, но и имеют
+                   возможность попробовать себя в чем-то новом.
+                   Совместив тренинги с преподавателями-носителями языка, увлекательные мастер-классы
+                   и уникальные игры и мероприятия - мы создаем пространство для всестороннего развития
+                   детей и подростков.</p>
+                <h3>Что ждет Вашего ребенка?</h3>
+                <p><ol>
+                    <li>12 часов английского языка</li>
+                    <li>Пятиразовое питание</li>
+                    <li>Комфортные условия проживания</li>
+                    <li>Катание на лыжах, плюшках, санках</li>
+                    <li>Развлекательная программа</li>
+                    <li>Квесты, тимбилдинги</li>
+                    <li>Уроки ораторского искусства и актерского мастерства</li>
+                    </ol></p>
             </div>
         </div>
     )
