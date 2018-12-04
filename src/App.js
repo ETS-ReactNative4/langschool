@@ -20,6 +20,10 @@ class App extends Component {
 
     }
   }
+
+  componentDidMount() {
+    fetch('https://lang-email-sender.herokuapp.com/');
+  }
   
   render() {
     return (

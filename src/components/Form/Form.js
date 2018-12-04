@@ -6,7 +6,7 @@ const handleSubmitButtonClick = () => {
     statusDiv.innerHTML = "";
     statusDiv.classList.add('loader');
     statusDiv.style = "visibility: visible; position: unset";
-    fetch('http://localhost:3001/request', {
+    fetch('https://lang-email-sender.herokuapp.com/request', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
