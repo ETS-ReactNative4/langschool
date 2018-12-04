@@ -31,6 +31,10 @@ import image14 from './img/gmail/14.jpg';
 import thumbnail14 from './img/resized/14.jpg';
 import image15 from './img/gmail/15.jpg';
 import thumbnail15 from './img/resized/15.jpg';
+import image16 from './img/gmail/16.jpg';
+import thumbnail16 from './img/resized/16.jpg';
+import image17 from './img/gmail/17.jpg';
+import thumbnail17 from './img/resized/17.jpg';
 
 
 
@@ -97,6 +101,14 @@ class Gallery extends Component {
               {
                 original: image15,
                 thumbnail: thumbnail15,
+              },
+              {
+                original: image16,
+                thumbnail: thumbnail16,
+              },
+              {
+                original: image17,
+                thumbnail: thumbnail17,
               }
         ]
         

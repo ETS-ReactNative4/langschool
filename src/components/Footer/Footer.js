@@ -26,11 +26,11 @@ const Footer = () => {
             <div className="fourthCol">
                 <div className="fourthCol1">
                 <p>Контакты:</p>
-                <p>+7(775) 156-76-35</p>
+                <p>+7 (778) 439-91-62</p>
                 </div>
                 <div className="fourthCol2">
-                <a href="https://facebook.com/" target="_blank">Facebook</a>
-                <a href="https://www.instagram.com/" target="_blank" className="instagram"></a>
+                <a href="https://www.facebook.com/lingvodomkz/?ref=bookmarks" target="_blank">Facebook</a>
+                <a href="https://www.instagram.com/lingvodom_astana/" target="_blank" className="instagram"></a>
                 </div>
             </div>
         </div>
