@@ -14,7 +14,7 @@
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1);
 }
 
-form {
+#form1 {
     display: flex;
     flex-flow: column;
     width: 25%;
@@ -22,7 +22,7 @@ form {
     align-items: center;
 }
 
-.firstPart form p {
+.firstPart #form1 p {
     margin-top: 0;
     align-self: flex-start;
     width: 200px;
@@ -109,7 +109,7 @@ form {
     color: #000;
 }
 
-form input:hover {
+#form1 input:hover {
     box-shadow: 0 0 6px 3px rgba(58, 219, 253, 0.35);
 }
 
@@ -125,13 +125,13 @@ form input:hover {
         align-self: center;
     }
 
-    form {
+    #form1 {
         width: 80%;
         height: initial;
         align-items: flex-start;
     }
 
-    form p {
+    #form1 p {
         margin-left: 0 !important;
     }
 
