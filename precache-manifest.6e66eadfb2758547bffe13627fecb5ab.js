@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "ecd7babab958d6b3fcd8ce48e36adbf8",
-    "url": "/langschool/static/media/6.ecd7baba.jpg"
+    "revision": "c230b93cbc77975693bc12eb92cfba5a",
+    "url": "/langschool/static/media/7.c230b93c.jpg"
   },
   {
-    "revision": "00308747936c3f8dba17",
-    "url": "/langschool/static/css/main.356a5569.chunk.css"
+    "revision": "135499cb77b7bdc3379a",
+    "url": "/langschool/static/css/main.2262728d.chunk.css"
   },
   {
     "revision": "54550f3993715d5704cbc6e959bf62c3",
     "url": "/langschool/static/media/photo.54550f39.jpg"
   },
   {
-    "revision": "c709a592561cf6a4c12a",
-    "url": "/langschool/static/js/1.c709a592.chunk.js"
+    "revision": "a083a68d33d8f62891b4",
+    "url": "/langschool/static/js/1.a083a68d.chunk.js"
   },
   {
     "revision": "5a508ba0d0b407dafbb2",
@@ -24,12 +24,24 @@ self.__precacheManifest = [
     "url": "/langschool/static/media/whitelogo.cfbdb48d.png"
   },
   {
-    "revision": "01673d767bd2d1a50c0b25ed6bbfa7cb",
-    "url": "/langschool/static/media/woman.01673d76.jpg"
+    "revision": "24c040740389038fa0904288122a8eb1",
+    "url": "/langschool/static/media/workerN1.24c04074.jpg"
   },
   {
-    "revision": "72fd5e8963fc51cf3af68eb329f3b3bc",
-    "url": "/langschool/static/media/winter.72fd5e89.jpg"
+    "revision": "84b52a626ea2e4fbb3946d90633eda13",
+    "url": "/langschool/static/media/workerN2.84b52a62.jpg"
+  },
+  {
+    "revision": "5691885631192adf0dc20cd86bf2874d",
+    "url": "/langschool/static/media/workerN3.56918856.jpg"
+  },
+  {
+    "revision": "db258b73e8bae49f1b89b7a2bcd28a9f",
+    "url": "/langschool/static/media/15-18.db258b73.jpg"
+  },
+  {
+    "revision": "7d5736d2f7f166ce4979e689fc75808b",
+    "url": "/langschool/static/media/second.7d5736d2.jpeg"
   },
   {
     "revision": "842d6c2c7e264f551fd44e356d7da7f5",
@@ -80,12 +92,12 @@ self.__precacheManifest = [
     "url": "/langschool/static/media/6.df4accfc.jpg"
   },
   {
-    "revision": "00308747936c3f8dba17",
-    "url": "/langschool/static/js/main.00308747.chunk.js"
+    "revision": "ecd7babab958d6b3fcd8ce48e36adbf8",
+    "url": "/langschool/static/media/6.ecd7baba.jpg"
   },
   {
-    "revision": "c230b93cbc77975693bc12eb92cfba5a",
-    "url": "/langschool/static/media/7.c230b93c.jpg"
+    "revision": "135499cb77b7bdc3379a",
+    "url": "/langschool/static/js/main.135499cb.chunk.js"
   },
   {
     "revision": "2bfbcf0733d0f7509b4ba0e6b03e2963",
@@ -156,11 +168,27 @@ self.__precacheManifest = [
     "url": "/langschool/static/media/15.0d8b48de.jpg"
   },
   {
-    "revision": "c709a592561cf6a4c12a",
-    "url": "/langschool/static/css/1.ea537a26.chunk.css"
+    "revision": "81c968dc25b9c8831054e3fcb336b477",
+    "url": "/langschool/static/media/16.81c968dc.jpg"
   },
   {
-    "revision": "2839affbbe9193d0ef91088a0cd46ad8",
+    "revision": "3b34fe0d56dbff5de49dbea7a1d987a5",
+    "url": "/langschool/static/media/16.3b34fe0d.jpg"
+  },
+  {
+    "revision": "adacd3b963d6d462af2bffa31ffb7779",
+    "url": "/langschool/static/media/17.adacd3b9.jpg"
+  },
+  {
+    "revision": "456d584f6087b991550ce7a44d7ed3a5",
+    "url": "/langschool/static/media/17.456d584f.jpg"
+  },
+  {
+    "revision": "a083a68d33d8f62891b4",
+    "url": "/langschool/static/css/1.87b5b9a5.chunk.css"
+  },
+  {
+    "revision": "e8c0e993e19cea5efb4644dbc04b94b3",
     "url": "/langschool/index.html"
   }
 ];
