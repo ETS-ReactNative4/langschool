@@ -11,6 +11,7 @@ import SideBar from './components/SideBar/SideBar';
 import SeasonsDiv from './components/SeasonsDiv/SeasonsDiv';
 import StaffCardsDiv from './components/StaffCardsDiv/StaffCardsDiv';
 import Gallery from './components/Gallery/Gallery';
+import 'whatwg-fetch';
 
 
 class App extends Component {
@@ -22,7 +23,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    fetch('https://lang-email-sender.herokuapp.com/');
+    window.fetch('https://lang-email-sender.herokuapp.com/');
   }
   
   render() {

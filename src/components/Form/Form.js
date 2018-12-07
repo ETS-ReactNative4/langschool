@@ -5,8 +5,9 @@ const handleSubmitButtonClick = () => {
     const statusDiv = document.getElementsByClassName('loaderDiv')[0];
     statusDiv.innerHTML = "";
     statusDiv.classList.add('loader');
-    statusDiv.style = "visibility: visible; position: unset";
-    fetch('https://lang-email-sender.herokuapp.com/request', {
+    statusDiv.style.visibility = 'visible';
+    statusDiv.style.position = 'relative';
+    window.fetch('https://lang-email-sender.herokuapp.com/request', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
@@ -21,12 +22,18 @@ const handleSubmitButtonClick = () => {
     .then(status => {
         if(status == "Success") {
             statusDiv.classList.remove('loader');
-            statusDiv.style = 'color: green; font-weight: 600; align-self: center; margin-bottom: 15px;'
-            statusDiv.innerHTML = "Спасибо за Вашу заявку!"
+            statusDiv.style.color = 'green';
+            statusDiv.style.fontWeight = '600';
+            statusDiv.style.alignSelf = 'center';
+            statusDiv.style.marginBottom = '15px';
+            statusDiv.innerHTML = "Спасибо за Вашу заявку!";
         } else {
             statusDiv.classList.remove('loader');
-            statusDiv.style = 'color: red; font-weight: 600; align-self: center; margin-bottom: 15px;'
-            statusDiv.innerHTML = "Ooops! Попробуйте позже!"
+            statusDiv.style.color = 'red';
+            statusDiv.style.fontWeight = '600';
+            statusDiv.style.alignSelf = 'center';
+            statusDiv.style.marginBottom = '15px';
+            statusDiv.innerHTML = "Ooops! Попробуйте позже!";
         }
     })
 }

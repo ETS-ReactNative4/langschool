@@ -1,9 +1,9 @@
 import React from 'react';
 import './SeasonCardHolder.css';
 import SeasonsCard from '../SeasonsCard/SeasonsCard';
-import image15 from './img/15-18(2).png';
-import image2 from './img/2-8(2).png';
-import image3 from './img/3-7(2).png';
+import image15 from './img/15-18(3).jpg';
+import image2 from './img/2-8(3).jpg';
+import image3 from './img/3-7(3).jpg';
 
 const SeasonCardHolder = () => {
 

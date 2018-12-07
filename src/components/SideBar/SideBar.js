@@ -1,6 +1,6 @@
 import React from 'react';
 import './SideBar.css';
-import image from './img/logo.png';
+import image from './img/kidslogo.png';
 
 const HideSideBar = () =>{
     document.getElementById('sideBar').style.visibility = 'hidden';
