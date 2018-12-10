@@ -13,7 +13,7 @@ const StaffCardsHolder = () => {
             <div className="staffCardsCollection">
                 <StaffCard image={workern1} name='Куттыбаева Осергуль' position={<p>Тим лидер, преподаватель<br/> актерского мастерства</p>}/>
                 <StaffCard image={workern2} name='Тюребекова Лязат' position='Преподаватель английского языка'/>
-                <StaffCard image={workern3} name='Кабылжановна Бота' position='Вожатая'/>
+                <StaffCard image={workern3} name='Safwan Abade' position='Носитель языка'/>
                 <StaffCard image={workern4} name='Иманбаева Ботакоз' position='Преподаватель английского языка' />
             </div>
         </div>
