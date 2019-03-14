@@ -35,6 +35,22 @@ import image16 from './img/gmail/16.jpg';
 import thumbnail16 from './img/resized/16.jpg';
 import image17 from './img/gmail/17.jpg';
 import thumbnail17 from './img/resized/17.jpg';
+import image18 from './img/gmail/18.jpeg';
+import thumbnail18 from './img/resized/18.jpeg';
+import image19 from './img/gmail/19.jpeg';
+import thumbnail19 from './img/resized/19.jpeg';
+import image20 from './img/gmail/20.jpeg';
+import thumbnail20 from './img/resized/20.jpeg';
+import image21 from './img/gmail/21.jpeg';
+import thumbnail21 from './img/resized/21.jpeg';
+import image22 from './img/gmail/22.jpeg';
+import thumbnail22 from './img/resized/22.jpeg';
+import image23 from './img/gmail/23.jpeg';
+import thumbnail23 from './img/resized/23.jpeg';
+import image24 from './img/gmail/24.jpeg';
+import thumbnail24 from './img/resized/24.jpeg';
+import image25 from './img/gmail/25.jpeg';
+import thumbnail25 from './img/resized/25.jpeg';
 
 
 
@@ -109,6 +125,38 @@ class Gallery extends Component {
               {
                 original: image17,
                 thumbnail: thumbnail17,
+              },
+              {
+                original: image18,
+                thumbnail: thumbnail18,
+              },
+              {
+                original: image19,
+                thumbnail: thumbnail19,
+              },
+              {
+                original: image20,
+                thumbnail: thumbnail20,
+              },
+              {
+                original: image21,
+                thumbnail: thumbnail21,
+              },
+              {
+                original: image22,
+                thumbnail: thumbnail22,
+              },
+              {
+                original: image23,
+                thumbnail: thumbnail23,
+              },
+              {
+                original: image24,
+                thumbnail: thumbnail24,
+              },
+              {
+                original: image25,
+                thumbnail: thumbnail25,
               }
         ]
         

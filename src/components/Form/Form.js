@@ -38,6 +38,18 @@ const handleSubmitButtonClick = () => {
     })
 }
 
+const formValidate = () => {
+    const yourNum = document.getElementById("PhoneNum");
+    if(!yourNum.value){
+        yourNum.focus();
+        yourNum.style.borderColor = "red";
+        yourNum.placeholder = 'Заполните данное поле';
+    }
+    else {
+        handleSubmitButtonClick();
+    }
+}
+
 const Form = () => {
 
     return (
@@ -53,7 +65,7 @@ const Form = () => {
                 <p>Комментарий</p>
                 <textarea className="comments" name="comments" id="textarea" cols="50" rows="4" placeholder="Оставьте комментарий..."></textarea>
                 <div className="loaderDiv"></div>
-                <input onClick={handleSubmitButtonClick} className="submitButton" type="submit" value="Отправить" />
+                <input onClick={formValidate} className="submitButton" type="submit" value="Отправить" />
             </div>
             <p>Нажимая кнопку "Отправить" Вы даете согласие на обработку своих персональных данных</p>
             </div>
