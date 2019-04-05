@@ -11,6 +11,7 @@
   },
   "devDependencies": {},
   "scripts": {
+    "now-start": "node .",
     "test": "test",
     "start": "node server.js"
   },
