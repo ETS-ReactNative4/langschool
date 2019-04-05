@@ -1,18 +1,15 @@
 import React from 'react';
 import './SeasonCardHolder.css';
 import SeasonsCard from '../SeasonsCard/SeasonsCard';
-import image15 from './img/15-18(3).jpeg';
-import image2 from './img/20-21.jpg';
-import image3 from './img/3-7(3).jpeg';
 
-const SeasonCardHolder = () => {
+const SeasonCardHolder = ({ seasonCardsCollection }) => {
+
+    const seasonCardArray = seasonCardsCollection.map((seasonCard, i) => <SeasonsCard key={i} image={seasonCard.image} name={seasonCard.name} description={seasonCard.description}/>)
 
     return (
         <div id="seasonCardHolder"> 
             <div className="seasonCardCollection">
-                <SeasonsCard image={image2} name='Весенняя смена 20-21 апреля' description='Английский лагерь в Боровом для детей от 7 до 16 лет'/>
-                <SeasonsCard image={image15} name='Весенняя смена 20-21 апреля' description='Англоязычные выходные для взрослых 18 +'/>
-                <SeasonsCard image={image3} name='Весенняя смена 25-29 марта' description='Английский лагерь в Астане для детей от 5 до 12 лет'/>          
+                { seasonCardArray }          
             </div>
         </div>
     )

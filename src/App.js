@@ -11,6 +11,7 @@ import SideBar from './components/SideBar/SideBar';
 import SeasonsDiv from './components/SeasonsDiv/SeasonsDiv';
 import StaffCardsDiv from './components/StaffCardsDiv/StaffCardsDiv';
 import Gallery from './components/Gallery/Gallery';
+import seasonCardsCollection from './data';
 import 'whatwg-fetch';
 
 
@@ -33,7 +34,7 @@ class App extends Component {
         <SideBar />
         <Banner />
         <SeasonsDiv />
-        <SeasonCardHolder />
+        <SeasonCardHolder seasonCardsCollection={seasonCardsCollection}/>
         <About />
         <StaffCardsDiv />
         <StaffCardsHolder />
