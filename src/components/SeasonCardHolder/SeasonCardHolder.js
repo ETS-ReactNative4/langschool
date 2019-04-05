@@ -10,9 +10,9 @@ const SeasonCardHolder = () => {
     return (
         <div id="seasonCardHolder"> 
             <div className="seasonCardCollection">
-                <SeasonsCard image={image15} name='Весенняя смена 21-30 марта' description='Английский лагерь в Боровом для детей от 10 до 16 лет'/>
-                <SeasonsCard image={image3} name='Весенняя смена 25-29 марта' description='Английский лагерь в Астане для детей от 5 до 12 лет'/>
                 <SeasonsCard image={image2} name='Весенняя смена 20-21 апреля' description='Английский лагерь в Боровом для детей от 7 до 16 лет'/>
+                <SeasonsCard image={image15} name='Весенняя смена 20-21 апреля' description='Англоязычные выходные для взрослых 18 +'/>
+                <SeasonsCard image={image3} name='Весенняя смена 25-29 марта' description='Английский лагерь в Астане для детей от 5 до 12 лет'/>          
             </div>
         </div>
     )
